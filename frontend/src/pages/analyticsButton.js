@@ -5,15 +5,13 @@ import { useUser } from './usercontext';
 
 const DownloadButton = () => {
   const user = useUser();
-  const deciderole = user?.user.role;
-  let role;
-  if (deciderole === 'ученик') {
-    role = 'student';
-  } else if (deciderole === 'учитель') {
+  const deciderole = user.user?.role;
+  let role = 'student'
+   if (deciderole === 'учитель') {
     role = 'teacher';
   }
 
-  const userId = user?.user.id;
+  const userId = user.user?.id;
 
   const handleDownload = async () => {
     try {
