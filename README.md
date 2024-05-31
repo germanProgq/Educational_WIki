@@ -36,7 +36,7 @@ Wiki_Area is an educational platform designed for teachers in Russia to create p
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/yourusername/Wiki_Area.git
+    git clone https://github.com/germanProgq/Wiki_Area.git
     cd Wiki_Area/backend
     ```
 
